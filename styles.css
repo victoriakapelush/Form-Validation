@@ -1,0 +1,13 @@
+body {
+    background-color:rgb(164, 169, 234);
+}
+
+form {
+    margin: 10% auto;
+    height: 100%;
+    width: 50%;
+    border: 2px rgb(79, 78, 78);
+    color: black;
+    border-style: dotted dashed solid double;
+    padding: 30px 30px;
+}
