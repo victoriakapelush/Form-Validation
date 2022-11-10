@@ -6,8 +6,26 @@ form {
     margin: 10% auto;
     height: 100%;
     width: 50%;
-    border: 2px rgb(79, 78, 78);
+    border: 2px rgb(0, 0, 0);
     color: black;
     border-style: dotted dashed solid double;
     padding: 30px 30px;
+}
+
+input:valid {
+    border-color: black;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+.btn {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.btn:hover {
+    background-color: black;
+    color: whitesmoke;
 }
